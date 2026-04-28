@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# AI / LLM Crawlers — explicitly allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow admin / private
+Disallow: /wp-admin/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /?s=
+
+Sitemap: https://realestatesosua.com/sitemap.xml
